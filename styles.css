@@ -1,0 +1,289 @@
+ 
+header > h1 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 50px;
+    font-weight: 700 bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header > p {
+    font-family: "Baskervville SC", serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+li {
+    margin: 0 auto;
+    padding: 40px 150px;
+    
+    text-align: center;
+    border: 2px solid #fff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 80px 80px 90px rgba(0, 0, 0, 0.1);
+    
+}
+
+li:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+
+}
+#blue {
+    background-color: #0E87CC;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#yellow {
+    background-color: #FFAB0F;
+    color: #000;
+    border-radius: 2px;
+}
+
+#white {
+    background-color: #fff;
+    color: #000;
+    border-radius: 2px;
+}
+
+#black {
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.colors > h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Zain", sans-serif;;
+    font-weight: 700 bold;
+    text-align: center;
+    font-size: 41px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.fonts > h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Zain", sans-serif;;
+    font-weight: 700 bold;
+    text-align: center;
+    font-size: 41px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.fonts p:hover{
+    color: #0E87CC;
+    cursor: pointer;
+
+}
+
+.fonts h4:hover {
+    color: #0E87CC;
+    cursor: pointer;
+}
+
+#zain-h4 {
+    margin-bottom: 10px;
+    font-family: "Zain", sans-serif;;
+    font-weight: 400 bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#anton-h4 {
+    margin-bottom: 10px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400 bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#baskervville-h4 {
+    margin-bottom: 10px;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400 bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#anton1 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+
+#anton2 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+
+#anton3 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+
+#zain1 { 
+    font-family: "Zain", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#zain2 {
+    font-family: "Zain", sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 900 bolder;
+    text-align: center;
+    
+}
+
+#zain3 {
+    font-family: "Zain", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+
+#baskervville1 {
+    font-family: "Baskervville SC", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#baskervville2 {
+    font-family: "Baskervville SC", serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 900 bolder;
+    text-align: center;
+    
+}
+
+#baskervville3 {
+    font-family: "Baskervville SC", serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+
+.text-style {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.text-style h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 700 bold;
+
+}
+
+.text-style h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 700 bold;
+}
+
+.text-style h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 700 bold;
+}
+
+.text-style p {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-top: 1px solid #cccccc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+
+}
+
+footer a {
+    color: #3e7cc2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e92929;
+    text-decoration: underline;
+}
+
+
+
+
+
+
