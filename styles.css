@@ -69,7 +69,7 @@ li:hover {
 .colors > h2 {
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-family: "Zain", sans-serif;;
+    font-family: "Zain", sans-serif;
     font-weight: 700 bold;
     text-align: center;
     font-size: 41px;
@@ -226,8 +226,9 @@ li:hover {
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: center;
-    font-family: "Anton SC", sans-serif;
+    font-family: "Zain", sans-serif;
     font-weight: 700 bold;
+    text-decoration: underline;
 
 }
 
